@@ -1,6 +1,7 @@
 
 import random
 
+
 def choose():
     options = int(input("how many options do you have to choose from? "))
     i = 0
@@ -14,4 +15,9 @@ def choose():
 
 
 
-    return random.choice(options_list)
+    choice = random.choice(options_list)
+    
+    options_list = ", ".join(options_list)
+
+    return f'this are your options: {options_list} \n the random choice is: {choice}'
+
