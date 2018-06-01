@@ -1,8 +1,13 @@
  
- def lottry():
  
-    main_6 = random.sample(range(1,37),6)
-    
-    additional_1 = random .sample(range(1,7),1)
+ import random
+
+def lottery():
+
+    main_6 = random.sample(range(1, 37), 6)
+
+    additional_1 = random.sample(range(1, 7), 1)
 
     return f'{main_6}\n{additional_1}'
+
+
