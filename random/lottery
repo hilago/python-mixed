@@ -1,6 +1,6 @@
  
- 
- import random
+
+import random
 
 def lottery():
 
