@@ -1,0 +1,17 @@
+
+import random
+
+def choose():
+    options = int(input("how many options do you have to choose from? "))
+    i = 0
+    options_list = []
+
+
+    while i < options:
+        opt =  str(input("option: "))
+        options_list.append(opt)
+        i+=1
+
+
+
+    return random.choice(options_list)
