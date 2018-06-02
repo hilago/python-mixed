@@ -29,3 +29,13 @@ def remove_duplicates(x):
          new_list.append(n)
 
  return new_list
+ 
+ 
+ 
+   or
+   
+   
+   
+ def remove_duplicates(x):
+ new_list = list(set(x))
+ return new_list
