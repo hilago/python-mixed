@@ -25,3 +25,16 @@ def digit_sum(x):
     
     
     
+    multiply version:
+    
+    def moltiplay(x):
+    total = 1
+
+    while x > 0:
+        total *= x % 10
+        x = x // 10
+
+    return total
+    
+    
+    
