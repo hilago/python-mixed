@@ -43,4 +43,20 @@ def anti_vowel(str):
         new_str += l
         
     return new_str
+    
+    
+    
+    or
+    
+    
+    
+    def anti_vowel(str):
+    new_str=""
+    for l in str:
+        if l in "ieaouIEAOU":
+                l= ""
+        else:
+                l=l
+        new_str += l
+    return new_str
 
