@@ -25,3 +25,21 @@ def scrabble_score(str):
         total += score.get(l)
 
     return total
+    
+    
+    
+    or
+    
+    
+    
+    def scrabble_score(str):
+    total = 0
+    str = str.lower()
+
+    for l in str:
+        total += score[l]
+
+    return total
+
+print(scrabble_score("Abgada"))
+
