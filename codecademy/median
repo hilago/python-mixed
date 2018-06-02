@@ -1,0 +1,36 @@
+
+from:
+www.codecademy.com/learn/learn-python
+
+
+
+Write a function called median that takes a list as an input
+and returns the median value of the list.
+For example: median([1, 2, 3, 4]) should return 1.
+
+The list can be of any size and the numbers are not guaranteed to be in any particular order.
+Make sure to sort it!
+If the list contains an even number of elements,
+your function should return the average of the middle two.
+
+
+
+
+
+solution:
+
+
+
+def median(nums):
+    nums = sorted(nums)
+    nums_len = len(nums)
+    mid = nums_len /2
+
+    if mid % 2 == 0:
+        mid = int(mid)
+        return (nums[mid]+nums[mid-1])/2
+    else:
+        return nums[int(mid)]
+        
+        
+        
