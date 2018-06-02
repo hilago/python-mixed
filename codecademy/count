@@ -27,3 +27,14 @@ def count(sequence, item):
         if s == item:
             count+=1
     return count
+    
+    
+    
+    or
+    
+    
+    
+ def count(sequence, item):
+    return sequence.count(item)
+    
+    
