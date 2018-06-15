@@ -9,6 +9,6 @@ str = "love"
 len_str = 4
 new_str = ""
 
-for index_row in range(1, len_str+1):
-    new_str += (str[index_row-1])
+for index_row in range(1, len_str + 1):
+    new_str += ( str[index_row-1] + " " )
     print(new_str)
