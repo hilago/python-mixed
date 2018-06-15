@@ -19,5 +19,5 @@ def choose():
     
     options_list = ", ".join(options_list)
 
-    return f'this are your options: {options_list} \n the random choice is: {choice}'
+    return f'these are your options are your options: {options_list} \n the random choice is: {choice}'
 
