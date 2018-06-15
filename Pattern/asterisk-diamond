@@ -4,6 +4,8 @@
    ***
   *****
  *******
+*********
+ *******
   *****
    ***
     *
@@ -11,12 +13,13 @@
 """
 
 
-spaces = 3
-for index in range(1,6,2):
+spaces = 4
+for index in range(1,8,2):
     print(" " * spaces  +  "*" * index)
     spaces -= 1
 
+
 spaces = 0
-for index in range(7,0,-2):
+for index in range(9,0,-2):
     print(" " * spaces  +  "*" * index)
     spaces += 1
