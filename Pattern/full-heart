@@ -1,0 +1,23 @@
+"""
+
+ **   ** 
+**** ****
+ *******
+  *****
+   ***
+    *
+    
+"""
+
+s = 0
+
+for row in range(2):
+    for col in range(9):
+        if (row == 0 and 1 <= col <= 2) or (row == 0 and 5 < col < 8) or (row == 1 and col != 4):
+            print("*", end="")
+        else:
+            print(end=" ")
+    print()
+for i in range(7, 0, -2):
+    print(" " * s, "*" * i)
+    s += 1
