@@ -8,6 +8,18 @@
 
 for i in range(4, 0, -1):
     print(str(i) * i)
+    
+    
+    or
+    
+    
+ for row in range(4,0,-1):
+    for col in range(row):
+        print(row,end="")
+    print()
+    
+    
+    
 
 
 
