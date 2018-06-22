@@ -14,3 +14,17 @@ for row in range(5):
         else:
             print(end=" ")
     print()
+    
+    
+"""
+
+*****
+******
+*******
+********
+*********
+
+"""
+
+for i in range(5,10):
+    print("*"*i)
