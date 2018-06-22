@@ -8,8 +8,6 @@
     
 """
 
-spaces = 0
-for index in range(9,0,-2):
-    print(" " * spaces  +  "*" * index)
-    spaces += 1
+for i in range(5,0,-1):
+    print(" " * (5-i) , "*" * ((i*2)-1))
 
