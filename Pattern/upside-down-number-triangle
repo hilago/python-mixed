@@ -13,9 +13,9 @@ for i in range(4, 0, -1):
     or
     
     
- for row in range(4,0,-1):
+ for row in range(4, 0, -1):
     for col in range(row):
-        print(row,end="")
+        print(row, end="")
     print()
     
     
