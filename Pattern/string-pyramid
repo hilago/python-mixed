@@ -5,10 +5,27 @@ l o v
 l o v e
 """
 
+str= "love"
+len_str = len(str)
+
+for row in range(len_str):
+
+    for col in range(row+1):
+        print(str[col], end="")
+        
+    print()
+    
+    
+    
+    
+    or
+    
+    
+
 str = "love"
-len_str = 4
+len = 4
 new_str = ""
 
-for index_row in range(1, len_str + 1):
-    new_str += ( str[index_row-1] + " " )
+for row in range(1, len + 1):
+    new_str += ( str[row-1] + " " )
     print(new_str)
