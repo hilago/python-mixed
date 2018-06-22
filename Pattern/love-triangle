@@ -11,7 +11,7 @@ len_str = len(str)
 for row in range(len_str):
 
     for col in range(row+1):
-        print(str[col], end="")
+        print(str[col], end=" ")
         
     print()
     
