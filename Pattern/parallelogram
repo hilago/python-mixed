@@ -9,5 +9,34 @@
 """
 
 
-for i in range(5,0,-1):
-    print(" "*(i-1),"*"*10)
+n=5 #num of rows
+
+for i in range(n,0,-1):
+    print(" "*(i-1),"*"*(n*2))
+
+ 
+ 
+ 
+ 
+    
+"""
+
+     * * * * * * * * * * 
+    * * * * * * * * * * 
+   * * * * * * * * * * 
+  * * * * * * * * * * 
+ * * * * * * * * * * 
+ 
+"""
+n=5 #num of rows
+
+
+for row in range(n):
+    for i in range(n- row):
+        print(end=" ")
+
+    for i in range(0,2*n):
+        print("*",end=" ")
+    print()
+
+
