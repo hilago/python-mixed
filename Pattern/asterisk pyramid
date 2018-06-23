@@ -8,5 +8,7 @@
 
 """
 
-for row in range(0,5):
-    print(" " * (5 - 1 - row), "*" * ((row * 2) + 1))
+n=5
+
+for row in range(n):
+    print(" " * (n - row), "*" * ((row * 2) + 1))
