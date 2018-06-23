@@ -106,7 +106,28 @@ for i in range(n):
     
 for i in range(n,0,-1):
     print(" "*i,"*"*(2*n))
+    
+    
+    
+    
+    
+ """
+ 
+**********    
+ *        *   
+  *        *  
+   *        * 
+    **********
+    
+ """
 
+for row in range(5):
+    for col in range(14):
+        if (row == 0 and col < 10) or (row == 4 and col > 3) or (row == col) or (col - row == 9):
+            print("*",end="")
+        else:
+            print(end=" ")
+    print()
     
  
 
